@@ -1,0 +1,35 @@
+{
+    "name": "graent/grtools",
+    "description": "tools for myself,there are something as dateFormat/SN/...",
+    "authors": [
+        {
+            "name": "graent",
+            "email": "1466409@qq.com",
+            "homepage": "https://www.graent.cn"
+        }
+    ],
+    "type": "library",
+    "keywords": [
+        "graent",
+        "grtools",
+        "OUNUO"
+    ],
+    "homepage": "https://www.ounuo.cc/",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-mbstring": "*",
+        "ext-bcmath": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Graent\\Grtools\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Graent\\Grtools\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
