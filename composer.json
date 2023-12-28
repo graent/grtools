@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Graent\\Grtools\\": "src/"
+            "Graent\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Graent\\Grtools\\": "src/"
+            "Graent\\": "src/"
         }
     },
     "minimum-stability": "stable"

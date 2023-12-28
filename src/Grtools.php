@@ -8,7 +8,7 @@
  * Email:1466409@qq.com
  */
 
-namespace Graent\Grtools;
+namespace Graent;
 
 class Grtools{
     public function __construct()
