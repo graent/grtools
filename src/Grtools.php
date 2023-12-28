@@ -1,6 +1,6 @@
 <?php
 /**
- * Filename:Tools.php
+ * Filename:Grtools.php
  * Date:2023/12/28 0028
  * Company:OUNUO欧诺网络
  * Site:www.ounuo.cc
@@ -10,7 +10,7 @@
 
 namespace Graent;
 
-class Tools{
+class Grtools{
     public function __construct()
     {
 
