@@ -15,7 +15,7 @@
         "OUNUO"
     ],
     "homepage": "https://www.ounuo.cc/",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "require": {
         "php": ">=7.0.0",
         "ext-mbstring": "*",
