@@ -250,9 +250,8 @@ class Grtools{
             $uuid = com_create_guid();
             $uuid = substr($uuid, 1,  strlen($uuid)-2);
         }else{
-            mt_srand((double)microtime()*10000);//optional for php 4.2.0 and up.
+            mt_srand((int)((double)microtime()*10000));//optional for php 4.2.0 and up.
             $charId = strtolower(md5(uniqid(rand(), true)));
-//            $hyphen = "-";
             $uuid =  substr($charId, 0, 8).$hyphen
                 .substr($charId, 8, 4).$hyphen
                 .substr($charId,12, 4).$hyphen
